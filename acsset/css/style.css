@@ -54,6 +54,7 @@ html{
     display: inline-block;
     margin-top: 15px;
     border: none;
+    -webkit-appearance: none;
 }
 .btn:hover{
     background-color: #ccc;
@@ -465,7 +466,7 @@ html{
     color: rgba(0, 0, 0, 0.5);
 }
 
-/* >tablet */
+/* tablet and mobile*/
 @media (max-width:1023px){
     .btn{
         padding: 16px 16px;
@@ -479,10 +480,14 @@ html{
     }
     #footer .coppy-right,
     #footer .social-list {
-        font-size: 40px;
+        font-size: 28px;
     }
     #footer .coppy-right {
         margin-top: 32px;
+        font-size: 21px;
+    }
+    #footer .coppy-right a{
+        padding: 8px;
     }
 }
 /* tablet */
