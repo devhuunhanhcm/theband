@@ -156,7 +156,7 @@ html{
     margin-top: 50px;
     padding-top: 50%;  
     /* padding-top: 50% là 50% chiều ngang của chính nó */
-    background: url('/acsset/img/slider2.jpg') no-repeat top center /cover;
+    background: url('../img/slider2.jpg') no-repeat top center /cover;
     position: relative;
 }
 #slider .text-content{
@@ -467,9 +467,10 @@ html{
 }
 
 /* tablet and mobile*/
-@media (max-width:1023px){
+@media (max-width: 63.9375em){
     .btn{
         padding: 16px 16px;
+        font-size: 16px;
     }
     .contact-info {
         font-size: 20px;
@@ -477,6 +478,7 @@ html{
     }
     .form-control{
         padding: 18px;
+        font-size: 16px;
     }
     #footer .coppy-right,
     #footer .social-list {
@@ -491,14 +493,14 @@ html{
     }
 }
 /* tablet */
-@media (min-width: 741px) and (max-width:1023px){
+@media (min-width: 46.25em) and (max-width:64em){
     #nav .subnav li a{
         padding: 0 30px 0 36px;
     }
 }
 
 /* mobile */
-@media (max-width: 740px){
+@media (max-width: 46.1875em){
     .c-mt-8{
         margin-top: 8px;
     }
@@ -540,9 +542,7 @@ html{
     #content .member-name{
         margin-top: 16px;
     }
-    /* contac mobile */
-
-  
+    
 }
 
 
